@@ -42,9 +42,6 @@ var index_config_default = {
   nongmin: {
     host: "https://m.xiangdao.me"
   },
-  ggys: {
-    host: "https://ggys.me"
-  },
   nicoletv: {
     host: "http://help.nicotv.life"
   },
@@ -58,7 +55,7 @@ var index_config_default = {
     host: "http://www.88kanqiu.one"
   },
   bili: {
-    categories: "经典无损音乐合集#电影解说超清#帕梅拉#太极拳#健身#舞蹈#音乐#歌曲#MV4K#演唱会4K#白噪音4K#知名UP主#说案#解说#演讲#时事#探索发现超清#纪录片超清#平面设计教学#软件教程#实用教程#旅游#风景4K#食谱#美食超清#搞笑#球星#动物世界超清#相声小品#戏曲#儿童#小姐姐4K#热门#旅行探险",
+    categories: "网文推荐#网络小说#韩漫#漫画#假装讲电影#短剧#ai漫画小说#说漫#沙雕动画#沙雕穿越#一口气沙雕#一口气看完#一次看完#听小说#听书#说书#爆笑虫子#猪哥亮#经典无损音乐合集#RM#黑色脑回路#脑哥看大片#小玉超治愈#电影解说超清#帕梅拉#太极拳#健身#舞蹈#音乐#歌曲#MV4K#演唱会4K#白噪音4K#知名UP主#说案#解说#演讲#时事#探索发现超清#纪录片超清#平面设计教学#软件教程#实用教程#旅游#风景4K#食谱#美食超清#搞笑#球星#动物世界超清#相声小品#戏曲#儿童#小姐姐4K#热门#旅行探险",
     cookie: "哔哩cookie 或 远端http链接"
   },
   bililive: {
@@ -72,6 +69,10 @@ var index_config_default = {
     "*": ["http://115.231.220.36:8801/jx/tvbox/2.php?url="]
   },
   live2cms: [
+    {
+      "name": "YouTube_to_m3u",
+      "url": "https://github.com/YuanHsing/YouTube_to_m3u/raw/main/youtube.m3u"
+    },
     {
       "name": "Yoursmile",
       "url": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/live.txt"
@@ -259,11 +260,11 @@ var index_config_default = {
     url: "https://www.weixine.link"
   },
   xiaoya: {
-    url: "http://192.168.0.222:4567/vod1/"
+    url: "搭建属于你自己的小雅alist-tvbox，将地址填入此处，形如：http://192.168.0.222:4567/vod1/"
   },
   yiso: {
     url: "https://yiso.fun",
-    cookie: "易搜 cookie"
+    cookie: "登录 https://yiso.fun 网站，获取cookie，填入网站cookie值"
   },
   alist: [
     {
