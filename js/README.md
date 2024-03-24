@@ -10,6 +10,12 @@
 ## Node.js 本地配置：
     * assets://js/index.js.md5
 
+> 只要修改 index.config.js 相关设定，index.config.js.md5 一定要填入新md5
+
+* <参考1：Git Bash 计算 MD5 值>
+    * cd CatVodOpen/nodejs/dist/
+    * md5sum index.config.js | awk '{print $1}' > index.config.js.md5
+
 ## Node.js 远端配置：
     * github://ghp_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx@github.com/YuanHsing/CatVodOpen/main/js/index.js.md5
 
