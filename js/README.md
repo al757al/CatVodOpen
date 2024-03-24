@@ -49,9 +49,13 @@
     * npm install loadish
     * npm install iconv-lite
 
-### Node.js 打包
+### Node.js 打包 > dist.zip
+    本地打包
     * cd CatVodOpen/nodejs/
     * npm run build
+
+    在线打包 Github
+    * Actions > Build NodeJS > Run workflow > Run workflow
 
 ### Node.js 调试相关
     * cd CatVodOpen/nodejs/
